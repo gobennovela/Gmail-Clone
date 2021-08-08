@@ -1,6 +1,7 @@
 .emailRow{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     height: 48px;
     border-bottom: 1px solid whitesmoke;
     cursor: pointer;
@@ -22,4 +23,31 @@
     flex: 0.6;
     align-items: center;
     font-size: 14px;
+}
+
+.emailRow__message > h4 {
+    width: 560px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 4px;
+    padding-right: 4px;
+    align-self: center;
+}
+
+.emailRow__title{
+    padding-right: 24px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.emailRow__time > p{
+    padding-right: 16px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.emailRow__description{
+    font-weight: 400;
+    color: gray;
 }

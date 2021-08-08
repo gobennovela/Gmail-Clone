@@ -1,3 +1,62 @@
-.emailList__settingsleft > .MuiSvgIcon-root{
+.mail {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.mail__tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.mail__toolsLeft {
+    display: flex;
+}
+
+
+.emailList__settingsleft>.MuiSvgIcon-root {
     font-size: 10px;
+}
+
+.mail__bodyHeader {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.mail__bodyHeader > h2 {
+    font-size: 14px;
+    margin-right: 24px;
+}
+
+.mail__important{
+    color: #e8ab02 !important;
+}
+
+.mail__body {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    background-color: white;
+    height: 100vh;
+    padding: 16px;
+    box-shadow: 0px 4px 8px 0px rgba(160, 158, 158, 0.24);
+}
+
+.mail__message > p {
+    padding: 8px;
+    margin-right: 16px;
+    overflow-wrap: break-word;
+}
+
+.mail__bodyHeader > p{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.mail__time{
+    font-size: 12px;
+    color: gray;
 }
