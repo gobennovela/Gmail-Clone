@@ -3,6 +3,10 @@
     overflow: scroll;
 }
 
+.emailList::-webkit-scrollbar{
+    display: none;
+}
+
 .emailList__settings{
     display: flex;
     justify-content: space-between;
